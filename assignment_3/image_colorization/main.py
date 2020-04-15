@@ -123,6 +123,7 @@ def create_models():
         os.system('wget https://raw.githubusercontent.com/richzhang/colorization/master/colorization/models/colorization_deploy_v2.prototxt -O ./models/colorization_deploy_v2.prototxt')
         os.system('wget http://eecs.berkeley.edu/~rich.zhang/projects/2016_colorization/files/demo_v2/colorization_release_v2.caffemodel -O ./models/colorization_release_v2.caffemodel')
 
+
 if __name__ == '__main__':
     create_uploads()
     create_models()
